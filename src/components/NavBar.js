@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import CartWidget from "./CartWidget";
 
 function NavBar() {
   return (
@@ -42,17 +43,7 @@ function NavBar() {
             </li>
           </ul>
         </div>
-        <form className="d-flex" role="search">
-          <input
-            className="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          ></input>
-          <button className="btn btn-outline-success" type="submit">
-            Search
-          </button>
-        </form>
+        <CartWidget />
       </div>
     </nav>
   );
