@@ -1,0 +1,11 @@
+.itemCountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemCountButton {
+  width: 50px;
+  background-color: white;
+  margin: 20px
+}
