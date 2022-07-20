@@ -3,7 +3,7 @@ import CartWidget from "./CartWidget";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
           Guitar Shop
